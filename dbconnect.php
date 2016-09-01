@@ -2,8 +2,8 @@
 
 	error_reporting( ~E_ALL & ~E_DEPRECATED &  ~E_NOTICE );
 	
-	define('DBHOST', 'iot.bounceme.net');
-	define('DBUSER', 'root');
+	define('DBHOST', 'iot');
+	define('DBUSER', 'iot');
 	define('DBPASS', 'deadfish22');
 	define('DBNAME', 'iot');
 	
