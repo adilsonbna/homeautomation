@@ -4,7 +4,7 @@
 	
 	define('DBHOST', 'iot');
 	define('DBUSER', 'iot');
-	define('DBPASS', 'deadfish2');
+	define('DBPASS', 'deadfish22');
 	define('DBNAME', 'iot');
 	
 	$conn = mysql_connect(DBHOST,DBUSER,DBPASS);
