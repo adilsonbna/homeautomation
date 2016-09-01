@@ -7,7 +7,7 @@
 		header("Location: gate.php");
 		exit;
 	}
-	
+
 	if( isset($_POST['btn-login']) ) {	
 		
 		$email = $_POST['email'];
