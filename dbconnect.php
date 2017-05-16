@@ -2,9 +2,9 @@
 
 	error_reporting( ~E_ALL & ~E_DEPRECATED &  ~E_NOTICE );
 	
-	define('DBHOST', 'iot');
+	define('DBHOST', 'localhost');
 	define('DBUSER', 'iot');
-	define('DBPASS', 'deadfish22');
+	define('DBPASS', '123456');
 	define('DBNAME', 'iot');
 	
 	$conn = mysql_connect(DBHOST,DBUSER,DBPASS);
